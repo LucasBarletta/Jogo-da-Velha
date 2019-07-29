@@ -1,10 +1,8 @@
 let quadrados = document.querySelectorAll(".casa");
 let resposta = document.querySelector("h3");
-
+let botao = document.querySelector("button");
 
 let count = 0;
-
-
 
 function gerarJogada(){
     if(this.innerHTML == ""){
@@ -57,3 +55,12 @@ function verificarResultado (){
     
 }
 
+function resetar(){
+    for(let quadrado of quadrados){
+        quadrado.onclick = gerarJogada;
+        quadrado.innerHTML = "";
+        count = 0;
+    }
+}
+
+botao.onclick = resetar;
