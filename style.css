@@ -1,8 +1,11 @@
 #jogo{
 width:603px;
 height:600px;
-border:solid 3px
+border:solid 3px;
+background-color: burlywood;
+
 }
+
 
 .linha{
 height:200px;
@@ -14,6 +17,11 @@ width:200px;
 height:100%;
 border-right:solid 1px;
 float:left;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50pt;
+background-color: bisque;
 }
 
 
