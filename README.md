@@ -31,3 +31,5 @@ function gerarJogada(){
 - Luana Marques
 - Kleven Maciel
 - Cibele Pereira
+
+- Quer jogar? [Clique aqui](https://lucasbarletta.github.io/Jogo-da-Velha/)
