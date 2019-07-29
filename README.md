@@ -27,7 +27,7 @@ function gerarJogada(){
  ### MENMROS DO GRUPO
  
 
-- Lucas
-- Luana
-- Kleven
-- Cibele
+- Lucas Miguel
+- Luana Marques
+- Kleven Maciel
+- Cibele Pereira
